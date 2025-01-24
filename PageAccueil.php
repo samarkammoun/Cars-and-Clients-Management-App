@@ -59,10 +59,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageVoiture.php">Voitures</a>
+                        <a class="nav-link" href="ModelAfficherVoitures.php">Voitures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageClients.php">Clients</a>
+                        <a class="nav-link" href="ModelAfficherClients.php">Clients</a>
                     </li>
                 </ul>
             </div>
