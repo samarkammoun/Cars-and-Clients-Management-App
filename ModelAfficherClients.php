@@ -70,18 +70,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Menu</a>
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageVoiture.php">Voitures</a>
+                        <a class="nav-link" href="ModelAfficherVoitures.php">Voitures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="affichageClients.php">Clients</a>
+                        <a class="nav-link" href="ModelAfficherClients.php">Clients</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
 
     <div class="container my-5">
@@ -137,8 +138,8 @@
         </div>
 
         <div class="d-grid gap-3 col-md-6 mx-auto mt-4">
-            <a href="menu.php" class="btn btn-primary">Retour au Menu</a>
-            <a href="formulaireClients.php" class="btn btn-primary">Ajouter Un Client</a>
+            <a href="PageAccueil.php" class="btn btn-primary">Retour au Menu</a>
+            <a href="FormulaireAjouterClient.php" class="btn btn-primary">Ajouter Un Client</a>
         </div>
     </div>
 
