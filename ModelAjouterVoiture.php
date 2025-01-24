@@ -35,7 +35,7 @@ a:active {
 
 <?php
 
-require "toConnectTp4.php";
+require "toConnect.php";
 if (isset($_REQUEST['immat']) && !empty($_REQUEST['immat'])){
     $immat=$_REQUEST['immat'];
 
@@ -67,7 +67,7 @@ if (isset($_REQUEST['immat']) && !empty($_REQUEST['immat'])){
     ?>
     <div class="alert alert-primary" role="alert">Voiture Ajoutée !</div>
     <div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-primary" type="button"><a href="affichageVoiture.php" >Retour</a></button>
+    <button class="btn btn-primary" type="button"><a href="ModelAfficherVoitures.php" >Retour</a></button>
     </div>
 
 <?php
