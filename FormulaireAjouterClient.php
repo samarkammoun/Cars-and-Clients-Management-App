@@ -46,7 +46,6 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#">Gestion de Location de Voitures</a>
@@ -56,20 +55,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Menu</a>
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageVoiture.php">Voitures</a>
+                        <a class="nav-link" href="ModelAfficherVoitures.php">Voitures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageClients.php">Clients</a>
+                        <a class="nav-link" href="ModelAfficherClients.php">Clients</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
+
+
     <div class="container my-5">
         <div class="form-container">
             <h2 class="mb-4">Formulaire d'Ajout de Client</h2>
@@ -103,17 +103,12 @@
                     <input type="email" class="form-control" id="mail" name="mail" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Ajouter</button>
-                <a href="affichageClients.php" class="btn btn-primary">Retour</a>
+                <a href="ModelAfficherClients.php" class="btn btn-primary">Retour</a>
             </form>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-primary text-white text-center py-3">
-        <p class="mb-0">&copy; 2025 Gestion de Location de Voitures. Tous droits réservés.</p>
-    </footer>
 
-    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
