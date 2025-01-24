@@ -84,7 +84,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Voitures</h5>
                         <p class="card-text">Gérez votre parc automobile.</p>
-                        <a href="affichageVoiture.php" class="btn btn-primary">Accéder aux Voitures</a>
+                        <a href="ModelAfficherVoitures.php" class="btn btn-primary">Accéder aux Voitures</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Clients</h5>
                         <p class="card-text">Gérez vos clients et leurs locations.</p>
-                        <a href="affichageClients.php" class="btn btn-primary">Accéder aux Clients</a>
+                        <a href="ModelAfficherClients.php" class="btn btn-primary">Accéder aux Clients</a>
                     </div>
                 </div>
             </div>
