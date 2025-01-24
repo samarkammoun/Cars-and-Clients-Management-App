@@ -73,7 +73,7 @@
     <div class="container my-5">
         <div class="form-container">
             <h2 class="mb-4">Formulaire de Modification de Voiture</h2>
-            <form method="post" action="FormulaireModifierVoiture.php?id_voiture=<?php echo $_GET['id_voiture']; ?>">
+            <form method="post" action="ModelModifierVoiture.php?id_voiture=<?php echo $_GET['id_voiture']; ?>">
                 <input type="hidden" name="id_voiture" value="<?php echo $_GET['id_voiture']; ?>">
                 <div class="mb-3">
                     <label for="marque" class="form-label">Marque :</label>
