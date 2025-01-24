@@ -74,7 +74,7 @@
     <div class="container my-5">
         <div class="form-container">
             <h2 class="mb-4">Formulaire de Modification de Client</h2>
-            <form method="post" action="ModifierClient.php?id_client=<?php echo $_GET['id_client']; ?>">
+            <form method="post" action="FormulaireModifierClient.php?id_client=<?php echo $_GET['id_client']; ?>">
                 <input type="hidden" name="id_client" value="<?php echo $_GET['id_client']; ?>">
                 <div class="mb-3">
                     <label for="nom" class="form-label">Nom :</label>
