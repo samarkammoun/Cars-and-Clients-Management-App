@@ -36,7 +36,7 @@ a:active {
 
 <?php
 
-require "toConnectTp4.php";
+require "toConnect.php";
 
 if (isset($_REQUEST['id']) && !empty($_REQUEST['id'])){
     $id=$_REQUEST['id'];
