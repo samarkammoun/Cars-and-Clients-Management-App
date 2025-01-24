@@ -43,7 +43,7 @@
 </head>
 <body>
     <?php
-    require "toConnectTp4.php";
+    require "toConnect.php";
     if (isset($_REQUEST['modifier'])) {
         $id_voiture = $_REQUEST['id_voiture'];
         $id_voiture = trim($id_voiture, "'");
@@ -86,7 +86,7 @@
 
             if ($result->execute()) {
                 echo '<div class="alert-custom">Voiture modifiée avec succès !</div>';
-                echo '<a href="affichageVoiture.php" class="btn-custom">Retour à la liste des voitures</a>';
+                echo '<a href="ModelAfficherVoitures.php" class="btn-custom">Retour à la liste des voitures</a>';
             } else {
                 echo '<div class="alert alert-danger" role="alert">Erreur lors de la modification de la voiture.</div>';
             }
@@ -97,7 +97,7 @@
             }
         }
     } else {
-        header("Location: affichageVoiture.php");
+        header("Location: ModelAfficherVoitures.php");
         exit;
     }
     ?>
