@@ -126,7 +126,7 @@
                         <td>' . $row['Telephone'] . '</td>
                         <td>' . $row['Email'] . '</td>
                         <td><a href="FormulaireModifierClient.php?id_client=' . $row['IdClient'] . '" class="btn btn-primary">Modifier</a></td>
-                        <td><a href="SupprimerClient.php?id_client=' . $row['IdClient'] . '" class="btn btn-danger">Supprimer</a></td>
+                        <td><a href="ModelSupprimerClient.php?id_client=' . $row['IdClient'] . '" class="btn btn-danger">Supprimer</a></td>
                     </tr>';
                 }
 
