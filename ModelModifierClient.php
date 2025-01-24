@@ -42,7 +42,7 @@
 </head>
 <body>
     <?php
-    require "toConnectTp4.php";
+    require "toConnect.php";
     if (isset($_REQUEST['modifier'])) {
         $id_client = $_REQUEST['id_client'];
         $id_client = trim($id_client, "'");
@@ -99,7 +99,7 @@
 
             if ($result->execute()) {
                 echo '<div class="alert-custom">Client modifié avec succès !</div>';
-                echo '<a href="affichageClients.php" class="btn-custom">Retour à la liste des clients</a>';
+                echo '<a href="ModelAfficherClients.php" class="btn-custom">Retour à la liste des clients</a>';
             } else {
                 echo '<div class="alert alert-danger" role="alert">Erreur lors de la modification du client.</div>';
             }
@@ -110,7 +110,7 @@
             }
         }
     } else {
-        header("Location: affichageClients.php");
+        header("Location: ModelAfficherClients.php");
         exit;
     }
     ?>
