@@ -52,7 +52,7 @@
 </head>
 <body>
     <?php
-    require "ToConnectTp4.php";
+    require "ToConnect.php";
 
     if (isset($_REQUEST['id_voiture'])) {
         $id_voiture = $_REQUEST['id_voiture'];
@@ -65,12 +65,12 @@
 
         if ($result->execute()) {
             echo '<div class="alert-custom">Voiture supprimée avec succès !</div>';
-            echo '<a href="affichageVoiture.php" class="btn-custom">Retour à la liste des voitures</a>';
+            echo '<a href="ModelAfficherVoitures.php" class="btn-custom">Retour à la liste des voitures</a>';
         } else {
             echo '<div class="alert alert-danger" role="alert">Erreur lors de la suppression de la voiture.</div>';
         }
     } else {
-        header("Location: affichageVoiture.php");
+        header("Location: ModelAfficherVoitures.php");
         exit;
     }
     ?>
