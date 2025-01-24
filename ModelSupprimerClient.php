@@ -52,7 +52,7 @@
 </head>
 <body>
     <?php
-    require "ToConnectTp4.php";
+    require "ToConnect.php";
 
     if (isset($_REQUEST['id_client'])) {
         $id_client = $_REQUEST['id_client'];
@@ -65,12 +65,12 @@
 
         if ($result->execute()) {
             echo '<div class="alert-custom">Client supprimé avec succès !</div>';
-            echo '<a href="AffichageClients.php" class="btn-custom">Retour à la liste des clients</a>';
+            echo '<a href="ModelAfficherClients.php" class="btn-custom">Retour à la liste des clients</a>';
         } else {
             echo '<div class="alert alert-danger" role="alert">Erreur lors de la suppression du client.</div>';
         }
     } else {
-        header("Location: AffichageClients.php");
+        header("Location: ModelAfficherClients.php");
         exit;
     }
     ?>
