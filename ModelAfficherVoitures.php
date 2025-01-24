@@ -70,18 +70,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Menu</a>
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageVoiture.php">Voitures</a>
+                        <a class="nav-link" href="ModelAfficherVoitures.php">Voitures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageClients.php">Clients</a>
+                        <a class="nav-link" href="ModelAfficherClients.php">Clients</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
 
     <div class="container my-5">
@@ -121,7 +122,7 @@
                         <td>' . $row['Cylindre'] . '</td>
                         <td>' . $row['dateAchat'] . '</td>
                         <td><a href="FormulaireModifierVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-primary">Modifier</a></td>
-                        <td><a href="SupprimerVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-danger">Supprimer</a></td>
+                        <td><a href="ModelSupprimerVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-danger">Supprimer</a></td>
                     </tr>';
                 }
 
@@ -134,8 +135,8 @@
 
      
         <div class="d-grid gap-3 col-md-6 mx-auto mt-4">
-            <a href="menu.php" class="btn btn-primary">Retour au Menu</a>
-            <a href="formuaireVoiture.php" class="btn btn-primary">Ajouter Une Voiture</a>
+            <a href="PageAccueil.php" class="btn btn-primary">Retour au Menu</a>
+            <a href="FormulaireAjouterVoiture.php" class="btn btn-primary">Ajouter Une Voiture</a>
         </div>
     </div>
 
