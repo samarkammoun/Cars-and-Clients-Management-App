@@ -41,7 +41,7 @@ try {
     // Connexion à la base de données
     $pdo = new PDO($dns, USER, PASSWD);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected to the database successfully!";
+    //echo "Connected to the database successfully!";
 } catch (PDOException $e) {
     // Gestion d'erreurs
     $msg = 'Erreur ' . $e->getFile() . ' ligne ' . $e->getLine() . ' : ' . $e->getMessage();
