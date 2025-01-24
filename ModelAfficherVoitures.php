@@ -89,7 +89,7 @@
         <div class="table-container">
             <h2 class="mb-4">Liste des Voitures</h2>
             <?php
-            require "ToConnectTp4.php";
+            require "ToConnect.php";
 
             $sql = "SELECT * FROM voiture";
             $voiture = $pdo->query($sql);
