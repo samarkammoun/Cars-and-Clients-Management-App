@@ -121,7 +121,7 @@
                         <td>' . $row['Modele'] . '</td>
                         <td>' . $row['Cylindre'] . '</td>
                         <td>' . $row['dateAchat'] . '</td>
-                        <td><a href="FormulaireModifierVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-primary">Modifier</a></td>
+                        <td><a href="FormuaireModifierVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-primary">Modifier</a></td>
                         <td><a href="ModelSupprimerVoiture.php?id_voiture=' . $row['immatriculation'] . '" class="btn btn-danger">Supprimer</a></td>
                     </tr>';
                 }
