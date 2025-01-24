@@ -78,7 +78,7 @@ if (isset($_REQUEST['id']) && !empty($_REQUEST['id'])){
     ?>
     <div class="alert alert-primary" role="alert">Client Ajouté !</div>
     <div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-primary" type="button"><a href="affichageClients.php" >Retour</a></button>
+    <button class="btn btn-primary" type="button"><a href="ModelAfficherClients.php" >Retour</a></button>
     </div>
     <?php
 }
