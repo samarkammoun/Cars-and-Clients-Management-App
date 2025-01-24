@@ -56,18 +56,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Menu</a>
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageVoiture.php">Voitures</a>
+                        <a class="nav-link" href="ModelAfficherVoitures.php">Voitures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="affichageClients.php">Clients</a>
+                        <a class="nav-link" href="ModelAfficherClients.php">Clients</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <div class="container my-5">
         <div class="form-container">
@@ -94,7 +95,7 @@
                     <input type="date" class="form-control" id="dateA" name="dateA" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Ajouter</button>
-                <a href="affichageVoiture.php" class="btn btn-primary">Retour</a>
+                <a href="ModelAfficherVoitures" class="btn btn-primary">Retour</a>
             </form>
         </div>
     </div>
