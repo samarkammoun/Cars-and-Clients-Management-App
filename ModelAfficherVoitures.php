@@ -136,7 +136,7 @@
      
         <div class="d-grid gap-3 col-md-6 mx-auto mt-4">
             <a href="PageAccueil.php" class="btn btn-primary">Retour au Menu</a>
-            <a href="FormulaireAjouterVoiture.php" class="btn btn-primary">Ajouter Une Voiture</a>
+            <a href="FormuaireAjouterVoiture.php" class="btn btn-primary">Ajouter Une Voiture</a>
         </div>
     </div>
 

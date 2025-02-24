@@ -72,7 +72,7 @@
     <div class="container my-5">
         <div class="form-container">
             <h2 class="mb-4">Formulaire d'Ajout de Client</h2>
-            <form method="post" action="ajouteClient.php">
+            <form method="post" action="ModelAjouterClient.php">
                 <div class="mb-3">
                     <label for="id" class="form-label">ID :</label>
                     <input type="text" class="form-control" id="id" name="id" required>

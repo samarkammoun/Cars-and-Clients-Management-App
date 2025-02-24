@@ -73,7 +73,7 @@
     <div class="container my-5">
         <div class="form-container">
             <h2 class="mb-4">Formulaire d'Ajout de Voiture</h2>
-            <form method="post" action="ajouteVoiture.php">
+            <form method="post" action="ModelAjouterVoiture.php">
                 <div class="mb-3">
                     <label for="immat" class="form-label">Immatriculation :</label>
                     <input type="text" class="form-control" id="immat" name="immat" required>
@@ -95,7 +95,7 @@
                     <input type="date" class="form-control" id="dateA" name="dateA" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Ajouter</button>
-                <a href="ModelAfficherVoitures" class="btn btn-primary">Retour</a>
+                <a href="ModelAfficherVoitures.php" class="btn btn-primary">Retour</a>
             </form>
         </div>
     </div>
